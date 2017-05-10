@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 const menu = <span className="menu_line"/>;
 
-export default class Nav extends Component {
+export class Nav extends Component {
 
   render() {
     return (

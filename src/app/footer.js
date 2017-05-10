@@ -9,7 +9,7 @@ const facebook = (<i className="fa fa-facebook-square" aria-hidden="true"/>);
 
 const google = (<i className="fa fa-google-plus" aria-hidden="true"/>);
 
-export default class Footer extends Component {
+export class Footer extends Component {
   render() {
     return (
       <footer className="footer">
