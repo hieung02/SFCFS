@@ -128,5 +128,23 @@
         padding: 8px;
       }
     }
+
+    #toggle {
+      position: absolute;
+      top: -100vh;
+      left: -100vw;
+
+      &:checked {
+        ~.nav{
+          height: 0vh;
+          padding-bottom: 0vh;
+          opacity: 1;
+          background: none;
+          margin-left: 45vw;
+          transition: height .3s;
+          transition-delay: 0.05s;
+        }
+      }
+    }
   }
 }
