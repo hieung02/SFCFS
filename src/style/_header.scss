@@ -1,0 +1,132 @@
+//mobile version
+@media screen and (min-width: 200px){
+  //header w/ menu and nav
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: $mainBG;
+    margin: 17px 30px 17px 23px;
+    justify-content: space-between;
+
+    //create menu_icon
+    .menu_icon{
+      position: absolute;
+      top: 43px;
+      right: 38px;
+      width: 44px;
+      height: 44px;
+      cursor: pointer;
+      z-index: 15;      
+
+      &:before {
+        @include menuLine;
+        top: 5px;
+      }
+
+      &:after {
+        @include menuLine;
+        bottom: 2px;
+      }
+
+      .menu_line:before {
+        @include menuLine;
+        top: 45%;
+        left: 0;
+      }
+    }
+
+    .nav {
+      width: 92vw;
+      height: 0rem;
+      text-align: center;
+      font-size: 2rem;
+      line-height: 45px;
+      letter-spacing: 3px;
+      background: linear-gradient(rgba(250,230,206,.75), rgba(255,255,255,0));
+      transition: height 0.5s;
+      transition-delay: 0.05s;
+      
+      ul{
+        @include nav_list;
+      }
+      
+      hr{
+        @include pretty_hr;
+        opacity: 0;
+        transition: opacity 0.5s;
+        transition-delay: 0.05s; 
+      }
+    }
+
+    //menu toggle effects
+    #toggle {
+      position: absolute;
+      top: -100vh;
+      left: -100vw;
+
+      &:checked {
+        ~ .menu_icon {
+
+          .menu_line {
+            &:before {
+              transform: translateY(-50%) rotate(180deg) scale(0);
+            }
+          }
+
+          &:before {
+            transform: translateX(2%) translateY(210%) rotate(45deg) scale(1);
+            transition: .25s ease-in-out;
+          }
+          
+          &:after {
+            transform: translateX(-1%) translateY(-215%) rotate(-45deg) scale(1);
+            transition: .25s ease-in-out;
+          } 
+        }
+
+        ~.nav{
+          height: 31vh;
+          padding-bottom: 10vh;
+          opacity: 1;
+          background: linear-gradient(rgba(255,255,255,0),rgba(250,230,206,.75));
+          transition: height .3s;
+          transition-delay: 0.05s;
+
+          hr{
+            opacity: 1;
+            transition: opacity 0.5s;
+            transition-delay: 0.05s;
+            margin: 25px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 751px){
+  .header {
+    align-items: left;
+    background-color: $mainBG;
+    margin-bottom: 50px;
+    
+    .menu_icon{
+      display: none;
+    }
+
+    .nav {
+      display: inline-flex;
+      letter-spacing: 0;
+
+      ul {
+        display: inline-flex;
+      }
+
+      li {
+        display: block;
+        padding: 8px;
+      }
+    }
+  }
+}
