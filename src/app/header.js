@@ -8,7 +8,7 @@ const styles = {
   }
 };
 
-export class Header extends Component {
+export default class Header extends Component {
 
   render() {
     return (
