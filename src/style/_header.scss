@@ -86,8 +86,7 @@
         }
 
         ~.nav{
-          height: 31vh;
-          padding-bottom: 18vh;
+          height: 50vmax;
           opacity: 1;
           background: linear-gradient(rgba(255,255,255,0),rgba(250,230,206,.75));
           transition: height .3s;
