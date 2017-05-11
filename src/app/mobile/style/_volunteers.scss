@@ -1,0 +1,41 @@
+.volunteer_btn {
+  @include btn;
+  height: 15vh;
+}
+
+.list_dot>li{
+  text-align: left;
+}
+
+
+// .form {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .form {
+//   display: table-cell;
+//   text-align: left;
+//   vertical-align: middle;
+//   position: absolute;
+//   top: 38vh;
+//   width: 75vw;
+//   height: 75vh;
+//   color: $formColor;
+//   background: $formBG;
+//   box-shadow: 4px 8px 15px #ccc;
+
+//     label {
+//       display: table-caption;
+//       font-size: 2rem;
+//       margin: 15px;
+
+//       input {
+//         display: table;
+//         height: 3rem;
+//         width: 52vw;
+//         border: 2px #ccc;
+//         border-radius: 8px;
+//       }
+//     }
+// }

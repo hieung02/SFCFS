@@ -1,0 +1,53 @@
+$mainBG: #fff;
+$family: SFNSDisplay;
+$fontColor: #283d3b;
+$sectionBG: #f2d95a;
+$subsectColor: #fff;
+$subsectBG: #362A25;
+$formBG: rgba(24, 114, 120, 0.9);
+$formColor:  #000;
+$linkColor: #A52630;
+$hoverColor:  #A52630 *1.5;
+$hoverBorder: #dc5959;
+$menulineColor: #000;
+$btnPrimary: #283D3B;
+$btnFont: rgba(255, 255, 255,.9);
+$footerBG: #ccc;
+$faColor: #444444;
+
+@mixin menuLine {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 7px;
+  border-radius: 100px;
+  background-color: $menulineColor;
+  transition: 0.5s;
+}
+
+//customized tags
+//custom hr
+@mixin pretty_hr {
+    height: 1px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #ccc));
+}
+
+//nav list
+@mixin nav_list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+//button
+@mixin btn {
+  width: 37vw;
+  height: 10vh;
+  margin: 1.8rem 0;
+  font-size: 1.8rem;
+  color: $btnFont;
+  background-color:$btnPrimary;
+  text-transform: uppercase;
+}
