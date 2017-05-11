@@ -1,19 +1,25 @@
-$mainBG: #fff;
-$family: SFNSDisplay;
+$btnFont: rgba(255, 255, 255,.9);
+$btnPrimary: #000;
+$btnFamily: Avenir-Heavy;
+$faColor: #444444;
+$footerBG: #ccc;
 $fontColor: #283d3b;
-$sectionBG: #f2d95a;
-$subsectColor: #fff;
-$subsectBG: #362A25;
 $formBG: rgba(24, 114, 120, 0.9);
 $formColor:  #000;
-$linkColor: #A52630;
-$hoverColor:  #A52630 *1.5;
 $hoverBorder: #dc5959;
+$hoverColor:  #A52630 *1.5;
+$linkColor: #A52630;
+$mainBG: #fff;
 $menulineColor: #000;
-$btnPrimary: #283D3B;
-$btnFont: rgba(255, 255, 255,.9);
-$footerBG: #ccc;
-$faColor: #444444;
+$paraFont: AppleSystemUIFont;
+$primaryFamily: SFNSDisplay;
+$primaryFont: 18px;
+$navFontSize: 14px;
+$sectionBG: #f2d95a;
+$subsectBG: #362A25;
+$subsectColor: #fff;
+
+
 
 @mixin menuLine {
   position: absolute;
@@ -43,11 +49,12 @@ $faColor: #444444;
 
 //button
 @mixin btn {
-  width: 37vw;
-  height: 10vh;
-  margin: 1.8rem 0;
-  font-size: 1.8rem;
+  width: 20vw;
+  height: 8vh;
+  margin: 10vh;
+  font-size: 0.8rem;
   color: $btnFont;
+  font-family: $btnFamily;
   background-color:$btnPrimary;
   text-transform: uppercase;
 }

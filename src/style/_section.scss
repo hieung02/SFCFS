@@ -1,40 +1,56 @@
-//article sections
 .section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+  height: 85vh;
+  margin: 0px 0px 0px 116px;
+  width: 85vw;
+}
+
+.section > article:first-child {
+  margin-right: 50px;
+}
+
+.main {
   background-color: $sectionBG;
-  margin: 0 30px 50px;
+  box-shadow: 8px 11px 5px #ccc;
   color: $fontColor;
-  box-shadow: 4px 8px 15px #ccc;
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  article {
-    font-size: 2rem;
-    line-height: 1.5;
-    padding-left: 28px;
-    text-align: center;
-  }
+  height: 482px;
+  padding: 5px 5px 0px 25px;
+  width: 434px;
   
-  .imgLogo {
-    width: 50vw;
-    height: 25vh;
+  button {
+    @include btn;
   }
 }
 
- 
-button {
-  @include btn;
+
+.main_sub {
+  @extend .main;
+  align-content: space-between;
+  background-color: $mainBG;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 0px;
+  padding: 0;
+
+  button {
+    @include btn;
+    background: transparent;
+    border: 1px solid $mainBG;
+    height: 6.8vh;
+    margin: 145px 30px 38px;
+    width: 115px;
+  }
 }
 
-.subsect {
-  @extend .section;
-  color: $subsectColor;
-  background-color: $subsectBG; 
-
+.sub_main {
+  width: 174px;
+  height: 224px;
+  
+  span {
+    position: relative;
+    top: 35px;
+    left: 41px;
+  }
 }
-
