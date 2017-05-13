@@ -40,11 +40,6 @@ export class About extends Component {
             </div>
           </article>
         </section>
-        <div className="about" style={{backgroundColor: '#0194C4'}}>
-          <a href="http://www.ritecare-sf.org/" alt="Click to redirect to rite-care organization web page">
-            <img className="imgLogo" src="http://www.ritecare-sf.org/application/files/7614/8946/7925/new_web_logo.png" alt="ritecare sf image"/>
-          </a>
-        </div>
       </div>
     );
   }

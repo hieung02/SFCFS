@@ -21,7 +21,7 @@
   box-shadow: 5px 5px 5px #ccc;
   float: left;
   margin: 10px;
-  max-width: 100%;
+  object-fit: contain;
 }
 .article_wrapper {
   @extend .section;
