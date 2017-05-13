@@ -1,41 +1,33 @@
 .volunteer_btn {
-  @include btn;
-  height: 15vh;
+  background: $btnPrimary;
+  border: 1px solid $mainBG;
+  color: $btnFont;
+  height: 5vh;
+  margin: 25px 20px 0;
+  width: 135px;
 }
 
 .list_dot>li{
   text-align: left;
 }
 
+.volunteer {
+  @extend .section;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #ccc;
+  margin-bottom: 10vh;
 
-// .form {
-//   display: flex;
-//   flex-direction: column;
-// }
+  .article_part {
+    padding: 125px 0px 0px 20px;
 
-// .form {
-//   display: table-cell;
-//   text-align: left;
-//   vertical-align: middle;
-//   position: absolute;
-//   top: 38vh;
-//   width: 75vw;
-//   height: 75vh;
-//   color: $formColor;
-//   background: $formBG;
-//   box-shadow: 4px 8px 15px #ccc;
-
-//     label {
-//       display: table-caption;
-//       font-size: 2rem;
-//       margin: 15px;
-
-//       input {
-//         display: table;
-//         height: 3rem;
-//         width: 52vw;
-//         border: 2px #ccc;
-//         border-radius: 8px;
-//       }
-//     }
-// }
+    p {
+      margin: -90px 0px 0px;
+    }
+  }
+  .verticle_line2 {
+    margin-top: -90px;
+  }
+  .sub_img {
+    box-shadow: none;
+  }
+}

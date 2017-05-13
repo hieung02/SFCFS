@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
-const groupIcon = (
+const img1 = '../../img/volunteer_bg.png';
+const img2 = '../../img/volunteer_bg1.png';
+/* const groupIcon = (
   <svg width="50px" height="50px" viewBox="0 0 167 168" version="1.1">
     <g id="mobile" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g id="Group-7" transform="translate(3.000000, 3.000000)" stroke="#979797" strokeWidth="6">
@@ -29,41 +31,28 @@ const intro = (
       <li>Marketing Volunteers or Interns (unpaid) – help us spread the word about the show & the charity</li>
       <li>Many, many more – all told, it takes about 100 volunteers to produce a fashion show; use the form below to tell us how you’d like to be involved!</li>
     </ul>
+    {groupIcon}
   </article>
-);
-
-/* const volunteerForm = (
-  <div className="form">
-    <div className="tab">
-      <button className="tablinks" onClick="openForm(e, 'models')">Model Volunteers Form</button>
-      <button className="tablinks" onClick="openForm(e, 'admin')">Administration Volunteers Form</button>
-      <button className="tablinks" onClick="openForm(e, 'exit')">Exit</button>
-    </div>
-    <div>
-      <embed className="form" id="models" src="https://docs.google.com/forms/d/e/1FAIpQLSe7hn3gC6VUj4WuoUwHzQYmlviQq5dV-1HR8tkW-CUw01c3MA/formResponse?embedded=true"/>
-    </div>
-  </div>
 ); */
 
 export class Volunteers extends Component {
   render() {
     return (
-      <div>
-        <div className="section">
-          <section>
-            <h1>Volunteers</h1>
-          </section>
-          {intro}
-          {/* {volunteerForm} */}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5_MWvhuGu6HgdyBozOZLSa1kIUUumcUUUS9TKvI_wHJmnMw/formResponse?embedded=true"><button className="volunteer_btn">
-            {groupIcon}
-            <br/>
-            Join Us!
-          </button></a>
-        </div>
-        {/* <div className="section">
-          {volunteerForm}
-        </div> */}
+      <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
+        <section className="article_wrapper">
+          <article className="article_part">
+            <img src={img2} className="sub_img"/>
+            <div className="verticle_line2"/>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eaque nisi hic nostrum delectus sint, similique perferendis est obcaecati minima aperiam facilis ab quod, ex provident doloribus debitis, ipsum dignissimos.
+              <div>
+                <a href="/"><button className="volunteer_btn">Designer Volunteer</button></a>
+                <a href="/"><button className="volunteer_btn">Model Volunteer</button></a>
+                <a href="/"><button className="volunteer_btn">Administrator Volunteer</button></a>
+              </div>
+            </p>
+          </article>
+        </section>
       </div>
     );
   }
