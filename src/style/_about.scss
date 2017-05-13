@@ -1,9 +1,42 @@
 .about {
-  background-color: #C6EAE9;
+  margin: 0;
+  padding: 0;
+  background-color: $mainBG;
+  // background-color: rgba(198, 234, 233, 0.8);
+
+  .headline {
+    @extend .section;
+    height: 55vh;
+    margin: 0;
+    width: 100vw;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    padding: 8px;
+  }
 }
 
-.about h1 {
-  margin-right: 21px;
-  padding-right: 14px;
-  border-right: 1px solid #ccc;
+.sub_img {
+  box-shadow: 5px 5px 5px #ccc;
+  float: left;
+  margin: 10px;
+  max-width: 100%;
+}
+.article_wrapper {
+  @extend .section;
+  display: block;
+  margin: 0;
+}
+
+.article_part {
+  display: flex;
+  padding: 0px 0px 100px 116px;
+  p {
+    margin: 25px 20px 0px;
+  }
+  .verticle_line2 {
+    @extend .verticle_line;
+    margin: 30px 65px 0px 103px
+  }
 }

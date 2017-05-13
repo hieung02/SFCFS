@@ -58,3 +58,18 @@ $subsectColor: #fff;
   background-color:$btnPrimary;
   text-transform: uppercase;
 }
+
+.verticle_line {
+  border: 3px solid $sectionBG;
+  // box-shadow: 5px 5px 5px #ccc;
+  height: 116px;
+  margin: 28px 8px 0 0px;
+  width: 0px;
+}
+
+.horizontal_line {
+  border-bottom: 6px solid $sectionBG;
+  height: 30px;
+  width: 550px;
+
+}
