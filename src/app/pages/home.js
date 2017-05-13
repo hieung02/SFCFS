@@ -59,7 +59,7 @@ export class Home extends Component {
           <article className="main">
             <h1>Scottish Rite Childhood Language Center</h1>
             <p>The San Francisco-Burlingame Scottish Rite Childhood Language Center provides free therapy and evalutions to children with communication disorder.</p>
-            <a href="/about"><button>Browse The Issues</button></a>
+            <a href="/the-issue"><button>Browse The Issues</button></a>
           </article>
         </section>
       </div>

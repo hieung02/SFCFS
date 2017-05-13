@@ -16,6 +16,7 @@ export class Nav extends Component {
           <ul>
             <a href="/"><li className="nav_items">Home</li></a>
             <a href="/about"><li className="nav_items">About</li></a>
+            <a href="/the-issue"><li className="nav_items">The Issue</li></a>
             <a href="/events"><li className="nav_items">Events</li></a>
             <a href="/volunteers"><li className="nav_items">Volunteers</li></a>
             <a href="/donation"><li className="nav_items">Donation</li></a>
