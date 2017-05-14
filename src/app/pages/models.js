@@ -19,7 +19,7 @@ export class Models extends Component {
               <p>Note: Your information is confidential and will only be used for casting calls.</p>
               <p>This is an unpaid gig, but one of the things that we pride ourselves on is our extremely low operation costs. The less we spend, the more we are able to give to the charity at the end of the day. This event is 100% volunteer-operated, no one gets paid. Everyone is volunteering their time to make this event hugely successful. Additionally, most of our operating costs are handled via in-kind donations (venue, staging, lighting, hair/makeup, etc.)</p>
               <div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7hn3gC6VUj4WuoUwHzQYmlviQq5dV-1HR8tkW-CUw01c3MA/viewform?embedded=true"><button className="volunteer_btn">Designer Application</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7hn3gC6VUj4WuoUwHzQYmlviQq5dV-1HR8tkW-CUw01c3MA/viewform?embedded=true"><button className="volunteer_btn">Model Application</button></a>
               </div>
             </div>
           </article>
