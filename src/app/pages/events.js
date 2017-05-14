@@ -10,7 +10,7 @@ export class Event extends Component {
           </section>
           <article className="article">
             <p>Love Fashion Week events? Get your tickets for the SF Charity Fashion Show.  Fashion.  Fun. … Plus, you get to support a great charity!</p>
-            <p>Tickets for the SF Charity Fashion Show are available through EventBrite:</p>
+            <p>Tickets for the SF Charity Fashion Show are available through EventBrite:add </p>
             {/* <div className="eventbrite">
               <iframe src="https://www.eventbrite.com/reserved/pick/26854686089/?cart_uuid=373caef6352d11e7a7e80e24c96df9ee"/>
             </div> */}
