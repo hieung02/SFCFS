@@ -10,6 +10,9 @@ import {About} from './app/pages/about';
 import {Issue} from './app/pages/issue';
 import {Event} from './app/pages/events';
 import {Volunteers} from './app/pages/volunteers';
+import {Designers} from './app/pages/designers';
+import {Models} from './app/pages/models';
+import {Admin} from './app/pages/admin';
 import {Donation} from './app/pages/donation';
 import {Contact} from './app/pages/contact';
 import {Footer} from './app/footer';
@@ -23,6 +26,9 @@ ReactDOM.render(
     <div className="container">
       <Header/>
       <Switch>
+        <Route path="/designer_volunteers" component={Designers}/>
+        <Route path="/model_volunteers" component={Models}/>
+        <Route path="/administrator_volunteers" component={Admin}/>
         <Route path="/about" component={About}/>
         <Route path="/subscribe" component={Home}/>
         <Route path="/the-issue" component={Issue}/>
