@@ -31,12 +31,12 @@
 
 .article_part {
   display: flex;
-  padding: 0px 0px 100px 116px;
+  padding-left: 5px; 
   p {
-    margin: 25px 20px 0px;
+    margin: 25px 20px 15px;
   }
   .verticle_line2 {
     @extend .verticle_line;
-    margin: 30px 65px 0px 103px
+    margin: 4% 3% 0px 10%;
   }
 }

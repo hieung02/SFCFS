@@ -9,7 +9,7 @@ export class Models extends Component {
       <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
         <section className="article_wrapper">
           <article className="application">
-            <p>
+            <p className="app_icon_wrapper">
               <img src={img2} className="sub_icon"/>
               <h4>Let’s get you set up</h4>
               It should only take a couple of minutes to tell us a bit more about you.

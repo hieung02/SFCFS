@@ -45,10 +45,12 @@
       }
 
       button {
-        width: 75px;
-        height: 25px;
-        border-radius: 5px;
         background: transparent;
+        border: 2px solid $btnPrimary;
+        border-radius: 5px;
+        color: $btnPrimary;
+        height: 30px;
+        width: 50%;
       }
     }
   }
