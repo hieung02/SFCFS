@@ -1,13 +1,12 @@
 .section {
   display: flex;
-  height: 85vh;
   margin: 0px 118px 0px 116px;
-  width: 85vw;
+  width: 85%;
 }
 
-.section > article:first-child {
-  margin-right: 50px;
-}
+// .section > article:first-child {
+//   margin-right: 50px;
+// }
 
 .main {
   background-color: $sectionBG;

@@ -3,7 +3,6 @@
   border: 1px solid $mainBG;
   color: $btnFont;
   height: 35px;
-  // margin: 35px 20px 0;
   margin: 30px auto 0px;
   width: 135px;
   display: block;
@@ -18,37 +17,44 @@
   border-radius: 25px;
   box-shadow: 5px 5px 5px #ccc;
   margin-bottom: 10vh;
-
-  .article_part {
-    padding: 125px 0px 0px 20px;
-
-    p {
-      margin: -80px 0px 0px;
-    }
-  }
-
-  .verticle_line2 {
-    margin-top: -80px;
-  }
   
   .sub_img {
     box-shadow: none;
   }
   
   .application {
-    @extend .article_part;
-    margin: auto;
-    p{
-      margin: 0 0 0 50px;
+    display: flex;
+    margin: 25px 35px 25px 35px;
+    width: 100%;
+
+    .app_icon_wrapper{
+      position: relative;
+      width: 50%;
+      margin: auto;
     }
 
     .application_detail {
       border-right: 1px solid $sectionBG;
-      margin: 0 0 0 125px;
-      padding: 5px;
+      margin: auto 0px auto 45px;
+      width: 100%;
+
+      input {
+        width: 110%;
+        height: 23px;
+        border-radius: 5px;
+      }
+
+      button {
+        width: 75px;
+        height: 25px;
+        border-radius: 5px;
+        background: transparent;
+      }
     }
   }
 }
+
+
 
 
 

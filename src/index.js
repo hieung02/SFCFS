@@ -2,7 +2,7 @@ import 'babel-polyfill';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 import {Header} from './app/header';
 import {Home} from './app/pages/home';
@@ -11,6 +11,7 @@ import {Issue} from './app/pages/issue';
 import {Event} from './app/pages/events';
 import {Volunteers} from './app/pages/volunteers';
 import {Designers} from './app/pages/designers';
+import {DesignerForm} from './app/pages/designer_form';
 import {Models} from './app/pages/models';
 import {Admin} from './app/pages/admin';
 import {Donation} from './app/pages/donation';
@@ -25,19 +26,18 @@ ReactDOM.render(
   <BrowserRouter>
     <div className="container">
       <Header/>
-      <Switch>
-        <Route path="/designer_volunteers" component={Designers}/>
-        <Route path="/model_volunteers" component={Models}/>
-        <Route path="/administrator_volunteers" component={Admin}/>
-        <Route path="/about" component={About}/>
-        <Route path="/subscribe" component={Home}/>
-        <Route path="/the-issue" component={Issue}/>
-        <Route path="/events" component={Event}/>
-        <Route path="/volunteers" component={Volunteers}/>
-        <Route path="/donation" component={Donation}/>
-        <Route path="/contactus" component={Contact}/>
-        <Route path="/" component={Home}/>
-      </Switch>
+      <Route exact path="/" component={Home}/>
+      <Route path="/designer_volunteers" component={Designers}/>
+      <Route path="/designer_form" component={DesignerForm}/>
+      <Route path="/model_volunteers" component={Models}/>
+      <Route path="/administrator_volunteers" component={Admin}/>
+      <Route path="/about" component={About}/>
+      <Route path="/subscribe" component={Home}/>
+      <Route path="/the-issue" component={Issue}/>
+      <Route path="/events" component={Event}/>
+      <Route path="/volunteers" component={Volunteers}/>
+      <Route path="/donation" component={Donation}/>
+      <Route path="/contactus" component={Contact}/>
       <Footer/>
     </div>
   </BrowserRouter>,

@@ -23,7 +23,7 @@ export class Designers extends Component {
                 <li>This is a juried event. Evaluation will be based upon creative uniqueness, the originality of the work and the quality of the overall submission</li>
               </ul>
               <div>
-                <a href="/volunteers/designers"><button className="volunteer_btn">Designer Application</button></a>
+                <a href="/designer_form"><button className="volunteer_btn">Designer Application</button></a>
               </div>
             </p>
           </article>
