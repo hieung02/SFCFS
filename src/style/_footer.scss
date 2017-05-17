@@ -1,6 +1,6 @@
 .footer {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
   background-color: #fafafa;
   text-align: center;
   color: $footerBG;
@@ -8,12 +8,16 @@
   .iconContainer{
   display: flex;
   justify-content: space-between;
-  margin: 0 25vw;
+  margin: 2vh 25vw;
 
     .fa{
       font-size: 50px;
       color: $faColor;
     }
+  }
+
+  .footer_logo {
+    width: 80px;
   }
   
   hr{
@@ -21,7 +25,7 @@
   }
 
   p{
-    font-size: 1.3rem;
+    font-size: 0.6rem;
     text-align: center;
   }
 }

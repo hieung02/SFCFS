@@ -10,6 +10,7 @@ import {About} from './app/pages/about';
 import {Issue} from './app/pages/issue';
 import {Event} from './app/pages/events';
 import {Volunteers} from './app/pages/volunteers';
+import {Thanks} from './app/pages/thanks';
 import {Designers} from './app/pages/designers';
 import {DesignerForm} from './app/pages/designer_form';
 import {Models} from './app/pages/models';
@@ -36,6 +37,7 @@ ReactDOM.render(
       <Route path="/the-issue" component={Issue}/>
       <Route path="/events" component={Event}/>
       <Route path="/volunteers" component={Volunteers}/>
+      <Route path="/thank-you" component={Thanks}/>
       <Route path="/donation" component={Donation}/>
       <Route path="/contactus" component={Contact}/>
       <Footer/>

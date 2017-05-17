@@ -9,6 +9,8 @@ const facebook = (<i className="fa fa-facebook-square" aria-hidden="true"/>);
 
 const google = (<i className="fa fa-google-plus" aria-hidden="true"/>);
 
+// const sfcfs = "../img/Logo_transp.png";
+
 export class Footer extends Component {
   render() {
     return (
@@ -20,6 +22,7 @@ export class Footer extends Component {
           {google}
         </div>
         <hr/>
+        <img className="footer_logo" src="../img/Logo_transp.png" alt="SF Charity Fashion Show logo"/>
         <p>SF Charity Fashion Show is a non-profit organization
  2017 SF Charity Fashion Show - All rights reserved</p>
         <p>Web Developer Hieu Nguyen | &copy; 2017</p>

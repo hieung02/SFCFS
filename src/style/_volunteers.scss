@@ -17,7 +17,7 @@
   border-radius: 25px;
   box-shadow: 5px 5px 5px #ccc;
   margin-bottom: 10vh;
-  width: 85%;
+  width: 80%;
   
   .sub_img {
     box-shadow: none;
@@ -40,7 +40,7 @@
       width: 100%;
 
       input {
-        width: 110%;
+        width: 100%;
         height: 23px;
         border-radius: 5px;
       }
@@ -54,6 +54,23 @@
         width: 50%;
       }
     }
+  }
+}
+
+.app_icon_wrapper2 {
+  margin: auto 0px auto 45px;
+  width: 100%;
+
+  .circle_icon {
+    background: $sectionBG;
+    border-radius: 100%;
+    padding: 20px 15px 15px 19px;
+    margin: auto;
+    width: 85px;
+  }
+  
+  h4 {
+    text-align: center;
   }
 }
 
