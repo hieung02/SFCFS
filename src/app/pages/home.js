@@ -33,7 +33,7 @@ export class Home extends Component {
             </article>
             <article className="sub_main">
               <article className="sub_main" style={{background: `url(${img1}`}}>
-                <a href="/subscribe"><button>Get Involved!</button></a>
+                <a href="/volunteers"><button>Get Involved!</button></a>
               </article>
             </article>
           </article>
@@ -42,7 +42,7 @@ export class Home extends Component {
         <section className="section">
           <article className="main_sub">
             <article className="sub_main" style={{background: `url(${img4}) center`}}>
-              <a href="/subscribe"><button>Donate Now!</button></a>
+              <a href="/donation"><button>Donate Now!</button></a>
             </article>
             <article className="sub_main">
               <article className="sub_main" style={{background: `url(${img5}`}}/>
