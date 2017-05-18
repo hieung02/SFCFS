@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import FontA from 'react-fontawesome';
 
 const instagram = (<i className="fa fa-instagram" aria-hidden="true"/>);
 
@@ -16,10 +15,10 @@ export class Footer extends Component {
     return (
       <footer className="footer">
         <div className="iconContainer">
-          {instagram}
-          {twitter}
-          {facebook}
-          {google}
+          <a>{instagram}</a>
+          <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.sfcharityfashionshow.com%2FWP%2Ftickets%2F&text=Tickets%20are%20now%20on%20sale!">{twitter}</a>
+          <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.sfcharityfashionshow.com%2FWP%2Ftickets%2F">{facebook}</a>
+          <a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.sfcharityfashionshow.com%2FWP%2Ftickets%2F">{google}</a>
         </div>
         <hr/>
         <img className="footer_logo" src="../img/Logo_transp.png" alt="SF Charity Fashion Show logo"/>
