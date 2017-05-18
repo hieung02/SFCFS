@@ -8,7 +8,7 @@ import {Header} from './app/header';
 import {Home} from './app/pages/home';
 import {About} from './app/pages/about';
 import {Issue} from './app/pages/issue';
-import {Event} from './app/pages/events2';
+import {Event} from './app/pages/events';
 import {Volunteers} from './app/pages/volunteers';
 import {Thanks} from './app/pages/thanks';
 import {Designers} from './app/pages/designers';
