@@ -24,7 +24,7 @@ export class Footer extends Component {
         <img className="footer_logo" src="../img/Logo_transp.png" alt="SF Charity Fashion Show logo"/>
         <p>SF Charity Fashion Show is a non-profit organization
  2017 SF Charity Fashion Show - All rights reserved</p>
-        <p>Web Developer Hieu Nguyen | &copy; 2017</p>
+        <p>Web Developer Hieu Nguyen &copy; 2017</p>
       </footer>
     );
   }
