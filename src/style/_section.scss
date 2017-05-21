@@ -1,16 +1,15 @@
 .section {
   display: flex;
   margin: 0px 118px 0px 116px;
-  width: 100%;
 }
 
 .main {
   background-color: $sectionBG;
-  box-shadow: 8px 11px 5px #ccc;
+  // box-shadow: 5px 5px 5px #ccc*1.2;
   color: $fontColor;
   height: 482px;
   padding: 5px 5px 0px 25px;
-  width: 434px;
+  width: 50%;
   
   button {
     @include btn;
@@ -27,21 +26,23 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin-right: 0px;
-  padding: 0;
+  padding: 5px 5px 25px;
 
   button {
     // @include .btn;
     background: transparent;
     border: 1px solid $mainBG;
-    height: 6.8vh;
+    // height: 6.8vh;
     margin: 145px 30px 38px;
     width: 115px;
   }
 }
 
 .sub_main {
-  width: 174px;
   height: 224px;
+  margin: 0px;
+  padding: 0px;
+  width: 174px;
   
   span {
     position: relative;

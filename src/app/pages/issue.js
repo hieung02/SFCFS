@@ -10,7 +10,7 @@ export class Issue extends Component {
   render() {
     return (
       <div className="about">
-        <img src={img1} className="headline"/>
+        <div style={{background: `url(${img1}) no-repeat center bottom`, backgroundSize: `cover`}} className="headline"/>
         <section className="article_container">
           <h1>Stories in Rite Care</h1>
           <article className="article_part">
