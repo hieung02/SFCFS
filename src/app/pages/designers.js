@@ -44,10 +44,9 @@ export class Designers extends Component {
                   <option value="Emerging Designers Application" >Emerging Designer</option>
                   <option value="Established Designer Application">Established Designer</option>
                 </select>
-                
               </form>
               <a download href={this.state.currentSelected === 'Emerging Designers Application' ? this.getPdfs(true) : this.getPdfs(false)}>
-                <button onClick={(e)=>{browserHistory.push('/thank-you'); location.reload();}} className="volunteer_btn">{this.state.currentSelected}</button>
+                <button onClick={()=>{browserHistory.push('/thank-you'); location.reload();}} className="volunteer_btn">{this.state.currentSelected}</button>
               </a>
             </div>
           </article>

@@ -36,6 +36,13 @@ const intro = (
 ); */
 
 export class Volunteers extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      submit: true
+    }
+  }
   render() {
     return (
       <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
@@ -46,7 +53,7 @@ export class Volunteers extends Component {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eaque nisi hic nostrum delectus sint, similique perferendis est obcaecati minima aperiam facilis ab quod, ex provident doloribus debitis, ipsum dignissimos.
               <div>
-                <a href="/designer_volunteers"><button className="volunteer_btn">Designer Volunteer</button></a>
+                <a onClick={()=>{this.setState({submit:false})}} href="/designer_volunteers"><button className="volunteer_btn">Designer Volunteer</button></a>
                 <a href="/model_volunteers"><button className="volunteer_btn">Model Volunteer</button></a>
                 <a href="/administrator_volunteers"><button className="volunteer_btn">Administrator Volunteer</button></a>
               </div>
