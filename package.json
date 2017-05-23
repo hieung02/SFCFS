@@ -66,17 +66,18 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto"
-  },
+  }
+  // ,
   // "eslintConfig": {
   //   "root": true,
   //   "env": {
   //     "browser": true,
   //     "jasmine": true
   //   },
-    "extends": [
-      "xo-react/space",
-      "xo-space/esnext"
-    ],
-    "parser": "babel-eslint"
-  }
+  //   "extends": [
+  //     "xo-react/space",
+  //     "xo-space/esnext"
+  //   ],
+  //   "parser": "babel-eslint"
+  // }
 }
