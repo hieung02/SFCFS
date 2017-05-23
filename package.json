@@ -14,7 +14,7 @@
     "@types/react-router": "^3.0.3",
     "autoprefixer": "^6.7.3",
     "babel-core": "^6.23.1",
-    "babel-eslint": "^7.1.1",
+    // "babel-eslint": "^7.1.1",
     "babel-loader": "^6.3.2",
     "babel-plugin-istanbul": "^4.0.0",
     "babel-polyfill": "^6.23.0",
@@ -31,7 +31,7 @@
     // "eslint-loader": "^1.6.1",
     // "eslint-plugin-babel": "^4.0.1",
     // "eslint-plugin-react": "^6.10.0",
-    // "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "gulp": "gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",
     "gulp-filter": "^5.0.0",
     "gulp-hub": "frankwallis/gulp-hub#d461b9c700df9010d0a8694e4af1fb96d9f38bf4",
@@ -67,12 +67,12 @@
     "test": "gulp test",
     "test:auto": "gulp test:auto"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "browser": true,
-      "jasmine": true
-    },
+  // "eslintConfig": {
+  //   "root": true,
+  //   "env": {
+  //     "browser": true,
+  //     "jasmine": true
+  //   },
     "extends": [
       "xo-react/space",
       "xo-space/esnext"
