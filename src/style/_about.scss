@@ -5,6 +5,10 @@
 
   .headline {
     @extend .section;
+    background-position-x: center;
+    background-position-y: -105px;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     height: 460px;
     width: 100vw;

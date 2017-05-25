@@ -5,12 +5,15 @@ const img2 = '../../img/about_bg1.png';
 const img3 = '../../img/about_bg2.png';
 const img4 = '../../img/bg_4.png';
 
+// style={{background: `url(${img1}) no-repeat center -105px`, backgroundSize: `cover`}}
+//  <div style={{background: `url(${img1}) no-repeat center -105px`, backgroundSize: `cover`}} className="headline"/>
+
 export class About extends Component {
 
   render() {
     return (
       <div className="about">
-        <div style={{background: `url(${img1}) no-repeat center -105px`, backgroundSize: `cover`}} className="headline"/>
+        <div style={{backgroundImage: `url(${img1})`}} className="headline"/>
         <section className="article_container">
           <h1>Stories in SFCFS</h1>
           <article className="article_part">
