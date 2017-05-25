@@ -1,6 +1,6 @@
 .section {
   display: flex;
-  margin: 0px 118px 0px 116px;
+  margin: 0px 5px 0px 116px;
 }
 
 .main {
@@ -10,6 +10,7 @@
   height: 482px;
   padding: 5px 5px 0px 25px;
   width: 50%;
+  max-width: 374px;
   
   button {
     @include btn;
@@ -27,12 +28,14 @@
   justify-content: space-around;
   margin-right: 0px;
   padding: 5px 5px 25px;
+  width: 58%;
+  max-width: 374px;
 
   button {
     background: transparent;
     border: 1px solid $mainBG;
     margin: 145px 30px 38px;
-    width: 115px;
+    width: 65%;
   }
 }
 
@@ -40,7 +43,8 @@
   height: 224px;
   margin: 0px;
   padding: 0px;
-  width: 174px;
+  width: 45%;
+  max-width: 174px;
   
   span {
     position: relative;

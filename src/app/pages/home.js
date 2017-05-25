@@ -20,41 +20,29 @@ export class Home extends Component {
             <a href="/about"><button>Read Our Stories</button></a>
           </article>
           <article className="main_sub">
-            <article className="sub_main" style={{background: `url(${img3}`}}>
+            <article className="sub_main" style={{background: `url(${img3}) no-repeat center center`, backgroundSize:'cover'}}>
               <a href="/subscribe"><button>Subscribe!</button></a>
             </article>
-            <article className="sub_main">
-              <article className="sub_main" style={{background: `url(${img2}`}}/>
+            <article className="sub_main" style={{background: `url(${img2}) no-repeat center center`, backgroundSize:'cover'}}/>
+            <article className="sub_main" style={{background: `url(${money}) no-repeat center rgba(198, 234, 233, 1)`}}>
+              <span>Who We Are</span>
             </article>
-            <article className="sub_main">
-              <article className="sub_main" style={{background: `url(${money}) no-repeat center rgba(198, 234, 233, 1)`}}>
-                <span>Who We Are</span>
-              </article>
-            </article>
-            <article className="sub_main">
-              <article className="sub_main" style={{background: `url(${img1}`}}>
-                <a href="/volunteers"><button>Get Involved!</button></a>
-              </article>
+            <article className="sub_main" style={{background: `url(${img1}) no-repeat center center`, backgroundSize:'cover'}}>
+              <a href="/volunteers"><button>Get Involved!</button></a>
             </article>
           </article>
         </section>
 
         <section className="section">
           <article className="main_sub">
-            <article className="sub_main" style={{background: `url(${img4}) center`}}>
+            <article className="sub_main" style={{background: `url(${img4}) no-repeat center center`, backgroundSize:'cover'}}>
               <a href="/donation"><button>Donate Now!</button></a>
             </article>
-            <article className="sub_main">
-              <article className="sub_main" style={{background: `url(${img5}`}}/>
+            <article className="sub_main" style={{background: `url(${img5}) no-repeat center center`, backgroundSize:'cover'}}/>
+            <article className="sub_main" style={{background: `url(${happyKids}) no-repeat center 75px rgba(198, 234, 233, 1)`}}>
+              <span>What We Do</span>
             </article>
-            <article className="sub_main">
-              <article className="sub_main" style={{background: `url(${happyKids}) no-repeat center 75px rgba(198, 234, 233, 1)`}}>
-                <span>What We Do</span>
-              </article>
-            </article>
-            <article className="sub_main">
-              <article className="sub_main" style={{background: `url(${img6}`}}/>
-            </article>
+            <article className="sub_main" style={{background: `url(${img6}) no-repeat center center`, backgroundSize:'cover'}}/>
           </article>
           <article className="main">
             <h1>Scottish Rite Childhood Language Center</h1>
