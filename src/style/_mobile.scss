@@ -1,0 +1,36 @@
+@media screen and (max-width: 750px){
+  .main_sub {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .nav > ul {
+    opacity: 0;
+  }
+
+  #toggle:checked {
+    ~ .nav > ul {
+      opacity: 1;
+    }
+  }
+
+  .sub_img {
+    display: none;
+  }
+
+  .about > .headline {
+    background-position-x: center;
+    background-position-y: -70px;
+  }
+
+ .volunteer .article_part p {
+    display: none;
+  }
+
+  .event_brite2 {
+    width: 70vw;
+  }
+}
