@@ -15,8 +15,8 @@ export class Home extends Component {
       <div className="home">
         <section className="section">
           <article className="main">
-            <h1>SF Charity Show</h1>
-            <p>We are SF charity show, a fundraiser for the San Francisco-Burlingame Scottish Rite Childhood Language Center.</p>
+            <h1>SF Charity Fashion Show</h1>
+            <p>We are SF Charity Fashion Show, a fundraiser for the San Francisco-Burlingame Scottish Rite Childhood Language Center.</p>
             <a href="/about"><button>Read Our Stories</button></a>
           </article>
           <article className="main_sub">
