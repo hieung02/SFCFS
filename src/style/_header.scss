@@ -42,7 +42,7 @@
       line-height: 45px;
       letter-spacing: 3px;
       // background: linear-gradient(rgba(250,230,206,.75), rgba(255,255,255,0));
-      padding-bottom: 5%;
+      // padding-bottom: 5%;
       text-align: center;
       transition: height 0.5s;
       transition-delay: 0.05s;
@@ -94,6 +94,7 @@
         ~.nav{
           height: 50vmax;
           opacity: 1;
+          padding-bottom: 5%;
           // background: linear-gradient(rgba(255,255,255,0),rgba(250,230,206,.75));
           transition: height .3s;
           transition-delay: 0.05s;
@@ -123,7 +124,10 @@
     .nav {
       font-size: 1rem;
       letter-spacing: 0;
-      margin: -85px 0px 0px 150px;
+      // margin: -85px 0px 0px 150px;
+      position: absolute;
+      top: 50px;
+      left: 45vh;
 
       ul {
         display: inline-flex;

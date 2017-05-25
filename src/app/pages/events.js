@@ -6,7 +6,7 @@ const img2 = '../../img/fashion.png';
 export class Event extends Component {
   render() {
     return (
-      <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
+      <div className="volunteer event" style={{background: `url(${img1}) no-repeat bottom left`}}>
         <section className="article_wrapper">
           <article className="article_part">
             <p className="event_header">

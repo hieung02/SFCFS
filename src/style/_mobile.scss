@@ -1,6 +1,6 @@
 @media screen and (max-width: 750px){
   .section {
-    margin: 0px 5% 0px 5%;
+    margin: 0px 5% 20px 5%;
   }
 
   .main_sub {
@@ -11,6 +11,14 @@
     margin-bottom: 30px;
     width: 100%;
   }
+
+  // .toggle_container {
+  //   height: 0;
+  // }
+
+  // .toggle_container ~ #toggle:checked {
+  //   height: 200px;
+  // }
 
   .nav > ul {
     opacity: 0;
@@ -32,11 +40,32 @@
     margin: 0;
   }
 
- .volunteer .article_part p {
+  .volunteer {
+    width: 90%;
+
+    .verticle_line2 {
+      display: none;
+    }
+  }
+
+  .event_header {
     display: none;
   }
 
   .event_brite2 {
-    width: 70vw;
+    width: 78vw;
+  }
+
+  .donation .app_icon_wrapper {
+    display: none;
+  }
+
+  .donation .application .application_detail {
+    margin: 0;
+    border: none;
+  }
+
+  .donation .event_brite {
+    width: 78vw;
   }
 }
