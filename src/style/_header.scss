@@ -37,15 +37,16 @@
     }
 
     .nav {
-      width: 92vw;
-      height: 0rem;
-      text-align: center;
-      font-size: 2rem;
+      font-size: 1.5rem;
+      height: 0;
       line-height: 45px;
       letter-spacing: 3px;
-      background: linear-gradient(rgba(250,230,206,.75), rgba(255,255,255,0));
+      // background: linear-gradient(rgba(250,230,206,.75), rgba(255,255,255,0));
+      padding-bottom: 5%;
+      text-align: center;
       transition: height 0.5s;
       transition-delay: 0.05s;
+      width: 92vw;
       
       ul{
         @include nav_list;
@@ -93,7 +94,7 @@
         ~.nav{
           height: 50vmax;
           opacity: 1;
-          background: linear-gradient(rgba(255,255,255,0),rgba(250,230,206,.75));
+          // background: linear-gradient(rgba(255,255,255,0),rgba(250,230,206,.75));
           transition: height .3s;
           transition-delay: 0.05s;
 
