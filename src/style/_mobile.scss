@@ -6,9 +6,10 @@
   }
 
   .sub_main {
+    box-shadow: none;
+    opacity: 1;
     width: 100%;
     max-width: 45%;
-    box-shadow: none;
     &:hover {
       box-shadow: 5px 5px 5px #ccc;
     }
