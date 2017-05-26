@@ -1,16 +1,24 @@
 @media screen and (max-width: 750px){
   .section {
+    display: flex;
+    flex-direction: column;
     margin: 0px 5% 20px 5%;
   }
 
-  .main_sub {
-    display: none;
+  .sub_main {
+    width: 100%;
+    max-width: 45%;
+    box-shadow: none;
+    &:hover {
+      box-shadow: 5px 5px 5px #ccc;
+    }
   }
+
   .main {
     height: 50%;
     margin-bottom: 30px;
-    width: 100%;
-    max-width: 100%;
+    width: 95%;
+    max-width: 95%;
     text-align: left;
   }
 
