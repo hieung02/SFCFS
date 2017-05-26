@@ -63,6 +63,16 @@
     width: 85vw;
   }
 
+  .scroll .article_wrapper {
+    margin: 25px;
+  }
+
+
+  .scroll .application .application_detail {
+    max-height: 400px;
+    overflow: scroll;
+  }
+
   .donation .app_icon_wrapper {
     display: none;
   }

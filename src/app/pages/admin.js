@@ -6,7 +6,7 @@ const img2 = '../../img/designer_icon.png';
 export class Admin extends Component {
   render() {
     return (
-      <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
+      <div className="volunteer scroll" style={{background: `url(${img1}) no-repeat center center`, backgroundSize:`cover`}}>
         <section className="article_wrapper">
           <article className="application">
             <p>

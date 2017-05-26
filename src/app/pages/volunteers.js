@@ -13,7 +13,7 @@ export class Volunteers extends Component {
   }
   render() {
     return (
-      <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
+      <div className="volunteer" style={{background: `url(${img1}) no-repeat center center`, backgroundSize: `cover`}}>
         <section className="article_wrapper">
           <article className="article_part">
             <img src={img2} className="sub_img"/>
