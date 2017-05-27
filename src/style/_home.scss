@@ -1,5 +1,10 @@
 .home {
   background: $mainBG;
+  margin: 0px 10.1% 0px 9.9%;
+
+  .section {
+    justify-content: space-between;
+  }
 }
 .sub_main{
   // background-position: center;

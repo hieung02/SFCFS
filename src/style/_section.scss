@@ -1,6 +1,5 @@
 .section {
   display: flex;
-  margin: 0px 5px 0px 116px;
 }
 
 .main {
@@ -10,7 +9,7 @@
   height: 482px;
   padding: 5px 5px 0px 25px;
   width: 50%;
-  max-width: 374px;
+  // max-width: 374px;
   
   button {
     @include btn;
@@ -28,8 +27,8 @@
   justify-content: space-around;
   margin-right: 0px;
   padding: 5px 5px 25px;
-  width: 58%;
-  max-width: 374px;
+  width: 50%;
+  // max-width: 374px;
 
   button {
     background: transparent;
@@ -44,7 +43,7 @@
   margin: 0px;
   padding: 0px;
   width: 45%;
-  max-width: 174px;
+  // max-width: 174px;
   text-align: center;
   
   span {
