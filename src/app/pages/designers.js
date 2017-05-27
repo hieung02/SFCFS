@@ -22,7 +22,7 @@ export class Designers extends Component {
 
   render() {
     return (
-      <div className="volunteer" style={{background: `url(${img1}) no-repeat bottom left`}}>
+      <div className="volunteer scroll" style={{background: `url(${img1}) no-repeat bottom left`}}>
         <section className="article_wrapper">
           <article className="application">
             <p className="app_icon_wrapper">
