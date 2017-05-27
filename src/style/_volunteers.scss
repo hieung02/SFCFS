@@ -26,20 +26,27 @@
   
   .application {
     display: flex;
-    // margin: 25px 35px 25px 35px;
     width: 100%;
+
+    p {
+      margin: auto;
+      text-align: left;
+    }
 
     .app_icon_wrapper{
       position: relative;
-      width: 50%;
-      margin: auto;
-      text-align: center;
+      // width: 50%;
+      // margin: auto;
+      text-align: left;
+    }
+
+    .application_detail_container {
+      margin-left: 30px;
     }
 
     .application_detail {
       border-right: 1px solid $sectionBG;
-      margin: auto 0px auto 45px;
-      width: 100%;
+      // margin: auto 0px auto 0px;
 
       p {
         padding: 5px;

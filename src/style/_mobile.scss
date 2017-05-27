@@ -5,6 +5,26 @@
     margin: 0px 5% 20px 5%;
   }
 
+  .volunteer .application  {
+    flex-direction: column;
+
+    p {
+      padding-bottom: 15px;
+      text-align: center;
+    }
+  }
+
+  .volunteer .application .application_detail {
+    border: none;
+    border-top: 1px solid $mainBG;
+    margin: 0;
+    
+    p {
+      padding-top: 15px;
+      text-align: left;
+    }
+  }
+
   .home {
     margin: 0px 10%;
 

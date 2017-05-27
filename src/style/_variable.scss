@@ -84,5 +84,19 @@ $subsectColor: #fff;
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: 600;
+}
+
+h2 {
+  @extend .bold;
+}
+
+h3 {
+  @extend .bold;
+  font-style: italic;
+}
+
+h4 {
+  @extend .bold;
+  font-style: italic;
 }

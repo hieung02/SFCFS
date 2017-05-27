@@ -17,7 +17,7 @@
       width: 44px;
       height: 44px;
       cursor: pointer;
-      z-index: 15;      
+      z-index: 5;     
 
       &:before {
         @include menuLine;
@@ -37,6 +37,7 @@
     }
 
     .nav {
+      // z-index: -10;
       font-size: 1.5rem;
       height: 0;
       line-height: 45px;
@@ -50,6 +51,7 @@
       
       ul{
         @include nav_list;
+        visibility: hidden;
       }
       
       hr{
@@ -73,7 +75,6 @@
 
       &:checked {
         ~ .menu_icon {
-
           .menu_line {
             &:before {
               transform: translateY(-50%) rotate(180deg) scale(0);
@@ -98,6 +99,9 @@
           // background: linear-gradient(rgba(255,255,255,0),rgba(250,230,206,.75));
           transition: height .3s;
           transition-delay: 0.05s;
+            ul {
+              visibility: visible;
+            }
 
           hr{
             opacity: 1;
@@ -124,11 +128,8 @@
     .nav {
       font-size: 1rem;
       letter-spacing: 0;
-      // margin: -85px 0px 0px 150px;
       position: absolute;
       top: 50px;
-      // margin-left: 5%;
-      // left: 45vh;
 
       ul {
         display: inline-flex;
@@ -140,6 +141,7 @@
         color: $fontColor;
         display: block;
         padding: 8px;
+        visibility: visible;
       }
 
       li:hover{
