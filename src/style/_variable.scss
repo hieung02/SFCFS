@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,600,700');
+
 $applicationColor: #ccc;
 $btnFont: rgba(255, 255, 255,.9);
 $btnPrimary: #000;
-$btnFamily: Avenir-Heavy;
+$btnFamily: 'Cormorant Garamond', serif;
 $faColor: #444444;
 $footerBG: #ccc;
 $fontColor: #283d3b;
@@ -12,8 +14,8 @@ $hoverColor:  #A52630 *1.5;
 $linkColor: #A52630;
 $mainBG: #fff;
 $menulineColor: #000;
-$paraFont: AppleSystemUIFont;
-$primaryFamily: SFNSDisplay;
+$paraFont:'Cormorant Garamond', serif;
+$primaryFamily: 'Cormorant Garamond', serif;
 $primaryFont: 18px;
 $navFontSize: 14px;
 $sectionBG: #f2d95a;
