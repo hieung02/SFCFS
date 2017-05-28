@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {browserHistory} from 'react-router';
 
 const img1 = '../../img/volunteer_bg.png';
-const img2 = '../../img/designer_icon.png';
+const img2 = '../../img/form.png';
 
 export class Designers extends Component {
   constructor() {
@@ -42,7 +42,7 @@ export class Designers extends Component {
               </div>
               <form>
                 {`Designer Forms: `}
-                <select onChange={(e)=>{this.setState({currentSelected: e.target.value})}} name="designer_type">
+                <select onChange={(e)=>{this.setState({currentSelected: e.target.value})}} name="designer_type" className="designer_options">
                   <option value="Emerging Designers Application" >Emerging Designer</option>
                   <option value="Established Designer Application">Established Designer</option>
                 </select>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 const img1 = '../../img/volunteer_back.png';
-const img2 = '../../img/designer_icon.png';
+const img2 = '../../img/happy-kids.png';
 
 export class Admin extends Component {
   render() {

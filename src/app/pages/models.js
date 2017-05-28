@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 const img1 = '../../img/model_bg.png';
-const img2 = '../../img/designer_icon.png';
+const img2 = '../../img/female-waist.png';
 
 export class Models extends Component {
   render() {
