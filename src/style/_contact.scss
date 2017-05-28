@@ -1,0 +1,44 @@
+.contact .article_wrapper {
+  width: 100%
+}
+
+.contact .application .application_detail {
+  border-right-color: #CFEBEA;
+}
+
+.contact .application .application_detail_container {
+  margin: 0 auto;
+  width: 75%;
+
+  p {
+    text-align: left;
+  }
+
+  input {
+    width: 95%;
+  }
+
+  button {
+    background: transparent;
+    border: 2px solid $btnPrimary;
+    border-radius: 5px;
+    color: $btnPrimary;
+    height: 30px;
+    width: 50%;
+  }
+}
+//This needs to be after to control 
+.contact .application > p {
+  text-align: center;
+}
+
+// .contact .application_detail_container > p {
+//     padding: 15px 0px;
+//     text-align: center;
+//   }
+
+.contact textarea {
+  border-radius: 5px;
+  height: 100px;
+  width: 95%;
+}

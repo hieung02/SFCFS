@@ -6,7 +6,7 @@ const img2 = '../../img/female-waist.png';
 export class Models extends Component {
   render() {
     return (
-      <div className="volunteer scroll" style={{background: `url(${img1}) no-repeat bottom left`, backgroundSize:`cover`}}>
+      <div className="volunteer models scroll" style={{background: `url(${img1}) no-repeat bottom left`, backgroundSize:`cover`}}>
         <section className="article_wrapper">
           <article className="application">
             <p>

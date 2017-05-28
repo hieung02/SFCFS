@@ -32,19 +32,18 @@ export class Contact extends Component {
             <p>
               {/*<img src={img2} className="sub_icon"/>*/}
               {contact_icon}
-              <h4>Leave us a message</h4>
+              <h4>Questions? Send us a message</h4>
             </p>
             <div className="application_detail_container">
               <div className="application_detail">
-                <h4>Contact Us:</h4>
                 <form name="contact_form" className="contactus_form">
                   <p><label>Name: <input type="text" name="name" required/></label></p>
                   <p><label>Phone Number: <input type="tel" name="telephone"/></label></p>
                   <p><label>Email Address: <input type="email" name="email" required/></label></p>
                   <p><label>Message: <textarea name="message"/></label></p>
-                  <p><button>Send</button></p>
                 </form>
               </div>
+              <p><button>Send</button></p>
             </div>
           </article>
         </section>
