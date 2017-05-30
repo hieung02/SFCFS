@@ -37,7 +37,7 @@
     }
 
     .nav {
-      // z-index: -10;
+      font-family: $headerFont;
       font-size: 1.5rem;
       height: 0;
       line-height: 45px;
@@ -119,7 +119,8 @@
   .header {
     align-items: left;
     background-color: $mainBG;
-    margin: 56px 68px 50px 108px;
+    font-family: $headerFont;
+    margin: 56px 68px 30px 108px;
     
     .menu_icon{
       display: none;

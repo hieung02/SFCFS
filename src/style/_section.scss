@@ -33,8 +33,15 @@
   button {
     background: transparent;
     border: 1px solid $mainBG;
-    margin: 145px 30px 38px;
-    width: 65%;
+    margin: 0;
+    position: relative;
+    top: 65%;
+    width: 80%;
+
+    &:hover {
+      background: $mainBG;
+      color: $btnPrimary;
+    }
   }
 }
 
@@ -46,6 +53,10 @@
   // max-width: 174px;
   text-align: center;
   
+  &:hover {
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
   span {
     position: relative;
     top: 35px;

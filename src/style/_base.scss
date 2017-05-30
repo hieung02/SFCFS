@@ -8,13 +8,14 @@ html, body, #root {
 }
 
 h1, h2, h3 {
+  font-family: $headerFont;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 5px;
 }
 
-p{
-  font-family: $paraFont;
+p {
+  font-family: $primaryFont;
   font-weight: 100;
   text-align: left;
 }
