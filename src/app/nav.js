@@ -37,9 +37,9 @@ export class Nav extends Component {
               <li className="nav_items">Volunteers
                 <i className="down arrow"></i>
                 <ul className="sub_nav">
-                  <a href="/designer_volunteers"><li className="sub_items">Designers</li></a>
-                  <a href="/model_volunteers"><li className="sub_items">Models</li></a>
-                  <a href="/administrator_volunteers"><li className="sub_items">Administrators</li></a>
+                  <li className="sub_items"><a href="/designer_volunteers">Designers</a></li>
+                  <li className="sub_items"><a href="/model_volunteers">Models</a></li>
+                  <li className="sub_items"><a href="/administrator_volunteers">Administrators</a></li>
                 </ul>
               </li>
             </div>
