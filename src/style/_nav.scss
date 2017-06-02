@@ -41,7 +41,7 @@
   }
 }
 
-.header .nav ul a[href="/events"]:hover{
+.header .nav ul div[name="events"]:hover{
   @include sub_menu;
 }
 
@@ -57,13 +57,25 @@
 // }
 
 
-.header .nav ul a[href="/volunteers"]:hover{
+.header .nav ul div[name="volunteers"]:hover{
   @include sub_menu;
 }
 
 
 //playground
-#events_dropdown {
-  position: absolute;
-  top: -100vh;
-}
+// .header #events_dropdown {
+//   position: absolute;
+//   top: -100vh;
+  
+//   &:checked {
+//     .header .nav ul .nav_items {
+//       .sub_nav {
+//         position: absolute;
+//         .sub_items{
+//           display: block;
+//           // visibility: hidden;
+//         }
+//       }
+//     }
+//   }
+// }

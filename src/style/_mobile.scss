@@ -31,11 +31,11 @@
   //   @include sub_menu_mobile;
   // }
 
-  .header .nav ul a[href="/events"]:hover{
+  .header .nav ul div[name="events"]:hover{
     @include sub_menu_mobile; 
   }
 
-  .header .nav ul a[href="/volunteers"]:hover{
+  .header .nav ul div[name="volunteers"]:hover{
     @include sub_menu_mobile; 
   }
 

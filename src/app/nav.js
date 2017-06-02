@@ -11,14 +11,15 @@ export class Nav extends Component {
         <label htmlFor="toggle" className="menu_icon">
           {menu}
         </label>
+        {/*<input id="events_dropdown" type="checkbox"/>*/}
         <nav className="nav">
           <hr/>
           <ul>
             <a href="/"><li className="nav_items">Home</li></a>
             <a href="/about"><li className="nav_items">About Us</li></a>
             <a href="/the-issue"><li className="nav_items">The Issue</li></a>
-            <a href="/events">
-              {/*<input id="events_dropdown" type="checkbox"/>*/}
+            <div name="events">
+              
               
                 <li className="nav_items">
                   {/*<label htmlFor="events_dropdown">*/}
@@ -31,8 +32,8 @@ export class Nav extends Component {
                     <li className="sub_items">Fashion Show Tickets</li>
                   </ul>
                 </li>
-            </a>
-            <a href="/volunteers">
+            </div>
+            <div name="volunteers">
               <li className="nav_items">Volunteers
                 <i className="down arrow"></i>
                 <ul className="sub_nav">
@@ -41,7 +42,7 @@ export class Nav extends Component {
                   <a href="/administrator_volunteers"><li className="sub_items">Administrators</li></a>
                 </ul>
               </li>
-            </a>
+            </div>
             <a href="/donation"><li className="nav_items">Donation</li></a>
             <a href="/contactus"><li className="nav_items">Contact Us</li></a>
           </ul>
