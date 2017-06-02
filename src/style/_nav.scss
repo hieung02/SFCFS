@@ -1,0 +1,69 @@
+//sub_menu for dropdown effect
+@mixin sub_menu {
+  i {
+    margin-left: 3px;
+  }
+
+  i.down {
+    transform: rotate(45deg);
+    transition-delay: .1s;
+  }
+
+  .nav_items .sub_nav {
+    padding: 0;
+    // height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+    width: 25%;
+    z-index: 5;
+    .sub_items{
+      background-color: $mainBG;
+      display: block;
+      margin: 0;
+      padding: 0 0 0 15px;
+      text-align: left;
+      // visibility: visible;
+    }
+  }
+}
+
+
+.header .nav ul .nav_items {
+  .sub_nav {
+    position: absolute;
+    .sub_items{
+      display: none;
+      // visibility: hidden;
+    }
+  }
+}
+
+.header .nav ul a[href="/events"]:hover{
+  @include sub_menu;
+}
+
+// .header .nav ul .nav_items #events_dropdown:checked{
+//   i {
+//     margin-left: 3px;
+//   }
+
+//   i.down {
+//     transform: rotate(90deg);
+//     transition-delay: .1s;
+//   }
+// }
+
+
+.header .nav ul a[href="/volunteers"]:hover{
+  @include sub_menu;
+}
+
+
+//playground
+#events_dropdown {
+  position: absolute;
+  top: -100vh;
+}

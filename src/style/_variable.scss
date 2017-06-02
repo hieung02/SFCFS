@@ -62,6 +62,51 @@ $subsectColor: #fff;
   text-transform: uppercase;
 }
 
+//sub_menu for dropdown
+@mixin sub_menu {
+  i {
+    margin-left: 3px;
+  }
+
+  i.down {
+    transform: rotate(45deg);
+    transition-delay: .1s;
+  }
+
+  .nav_items .sub_nav {
+    padding: 0;
+    // height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+    width: 25%;
+    z-index: 5;
+    .sub_items{
+      background-color: $mainBG;
+      margin: 0;
+      padding: 0 0 0 15px;
+      text-align: left;
+      visibility: visible;
+    }
+  }
+}
+
+i {
+  border: solid $fontColor;
+  border-width: 0 1px 1px  0;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: middle;
+  // margin-right: 2px;
+}
+
+.down {
+  transform: rotate(-45deg);
+  // vertical-align: middle;
+}
+
 .verticle_line {
   border: 3px solid $sectionBG;
   // box-shadow: 5px 5px 5px #ccc;

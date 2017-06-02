@@ -1,8 +1,42 @@
 @media screen and (max-width: 750px){
+
+ //sub_menu for downdrop mobile version
+  @mixin sub_menu_mobile {
+    .nav_items .sub_nav {
+      position: relative;
+      width: 100%;
+
+      .sub_items {
+        display: block;
+        height: 1%;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  }
+
   .section {
     display: flex;
     flex-direction: column;
     margin: 0px 5% 20px 5%;
+  }
+
+  // .header .nav ul a[href="/about"]{
+  //   .nav_items .sub_nav li {
+  //     height: 0;
+  //   }
+  // }
+
+  // .header .nav ul a[href="/about"]:hover{
+  //   @include sub_menu_mobile;
+  // }
+
+  .header .nav ul a[href="/events"]:hover{
+    @include sub_menu_mobile; 
+  }
+
+  .header .nav ul a[href="/volunteers"]:hover{
+    @include sub_menu_mobile; 
   }
 
   .volunteer .application  {
