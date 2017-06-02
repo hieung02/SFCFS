@@ -1,5 +1,35 @@
 import React, { Component } from 'react';
 
+export class Contact extends Component {
+  render() {
+    return (
+      <div className="volunteer contact scroll" style={{background: `url(${img1}) no-repeat bottom left`, backgroundSize:`cover`}}>
+       <section className="article_wrapper">
+          <article className="application">
+            <p>
+              {/*<img src={img2} className="sub_icon"/>*/}
+              {contact_icon}
+              <h4>Questions? Send us a message</h4>
+            </p>
+            <div className="application_detail_container">
+              <div className="application_detail">
+                <form name="contact_form" className="contactus_form" netlify>
+                  <p><label>Name: <input type="text" name="name" required/></label></p>
+                  <p><label>Phone Number: <input type="tel" name="telephone"/></label></p>
+                  <p><label>Email Address: <input type="email" name="email" required/></label></p>
+                  <p><label>Message: <textarea name="message"/></label></p>
+                  <button>Send</button>
+                </form>
+              </div>
+              {/*<p><button>Send</button></p>*/}
+            </div>
+          </article>
+        </section>
+      </div>
+    );
+  }
+}
+
 const img1 = '../../img/volunteer_bg.png';
 const contact_icon =  
 <svg width="87px" height="85px" viewBox="0 0 87 85" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -22,32 +52,3 @@ const contact_icon =
         </g>
     </g>
 </svg>
-
-export class Contact extends Component {
-  render() {
-    return (
-      <div className="volunteer contact scroll" style={{background: `url(${img1}) no-repeat bottom left`, backgroundSize:`cover`}}>
-       <section className="article_wrapper">
-          <article className="application">
-            <p>
-              {/*<img src={img2} className="sub_icon"/>*/}
-              {contact_icon}
-              <h4>Questions? Send us a message</h4>
-            </p>
-            <div className="application_detail_container">
-              <div className="application_detail">
-                <form name="contact_form" className="contactus_form" netlify>
-                  <p><label>Name: <input type="text" name="name" required/></label></p>
-                  <p><label>Phone Number: <input type="tel" name="telephone"/></label></p>
-                  <p><label>Email Address: <input type="email" name="email" required/></label></p>
-                  <p><label>Message: <textarea name="message"/></label></p>
-                </form>
-              </div>
-              <p><button>Send</button></p>
-            </div>
-          </article>
-        </section>
-      </div>
-    );
-  }
-}
