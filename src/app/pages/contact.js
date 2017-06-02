@@ -36,7 +36,7 @@ export class Contact extends Component {
             </p>
             <div className="application_detail_container">
               <div className="application_detail">
-                <form name="contact_form" className="contactus_form">
+                <form name="contact_form" className="contactus_form" netlify>
                   <p><label>Name: <input type="text" name="name" required/></label></p>
                   <p><label>Phone Number: <input type="tel" name="telephone"/></label></p>
                   <p><label>Email Address: <input type="email" name="email" required/></label></p>
