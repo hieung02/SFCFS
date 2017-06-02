@@ -38,7 +38,7 @@ export class Nav extends Component {
                 <ul className="sub_nav">
                   <a href="/designer_volunteers"><li className="sub_items">Designers</li></a>
                   <a href="/model_volunteers"><li className="sub_items">Models</li></a>
-                  <a href="/administrator_volunteers"><li className="sub_items">Adiministrators</li></a>
+                  <a href="/administrator_volunteers"><li className="sub_items">Administrators</li></a>
                 </ul>
               </li>
             </a>
