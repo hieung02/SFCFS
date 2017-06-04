@@ -18,10 +18,10 @@ export class Contact extends Component {
                   <p><label>Phone Number: <input type="tel" name="telephone"/></label></p>
                   <p><label>Email Address: <input type="email" name="email" required/></label></p>
                   <p><label>Message: <textarea name="message"/></label></p>
-                  <button>Send</button>
+                  {/*<button>Send</button>*/}
                 </form>
               </div>
-              {/*<p><button>Send</button></p>*/}
+              <p><button>Send</button></p>
             </div>
           </article>
         </section>
