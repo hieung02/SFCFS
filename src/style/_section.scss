@@ -1,5 +1,5 @@
 .section {
-  display: flex;
+  @include flex;
 }
 
 .main {
@@ -18,11 +18,13 @@
 
 
 .main_sub {
-  @extend .main;
-  align-content: space-between;
+  // @extend .main;
+  // height: 482px;
+  color: $fontColor;
+  // align-content: space-between;
   background-color: $mainBG;
-  display: flex;
-  flex-direction: row;
+  @include flex;
+  @include flex-direction(row);
   flex-wrap: wrap;
   justify-content: space-around;
   margin-right: 0px;
@@ -31,6 +33,7 @@
   // max-width: 374px;
 
   button {
+    @include btn;
     background: transparent;
     border: 1px solid $mainBG;
     margin: 0;
