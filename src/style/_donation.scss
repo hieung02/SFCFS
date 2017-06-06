@@ -3,12 +3,16 @@
 }
 
 .donation .application {
-   .app_icon_wrapper {
+  
+  font-style: italic;
+  
+  .app_icon_wrapper {
     width: 50%;
+    text-align: center;
   }
   .application_detail {
     
-    font-style: italic;
+    font-style: normal;
     width: 50%;
 
     select {
