@@ -1,3 +1,23 @@
 .event_brite {
   width: 55vw;
 }
+
+.donation .application {
+   .app_icon_wrapper {
+    width: 50%;
+  }
+  .application_detail {
+    
+    font-style: italic;
+    width: 50%;
+
+    select {
+      font-size: 0.8rem;
+      height: 28px;
+      width: 250px;
+    }
+    .paypal_btn {
+      width: inherit;
+    }
+  }
+}
