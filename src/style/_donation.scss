@@ -18,7 +18,13 @@
     font-style: normal;
     width: 50%;
 
+    td {
+      height: 40px;
+    }
     select {
+      background-color: rgb(248, 248, 248);
+      border: 1px solid rgb(166,166,166);
+      cursor: pointer;
       font-size: 0.8rem;
       height: 28px;
       width: 250px;
