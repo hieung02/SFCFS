@@ -38,7 +38,7 @@ export class About extends Component {
                 Our goal is to improve our clients’ communication abilities. We help them lead meaningful, productive, independent, and fulfilling lives — both academically and socially.
               </p>
               <p>
-                The San Francisco-Burlingame Scottish Rite Childhood Language Center is part of the California Scottish Rite Foundation – a 501(c)3 Charitable Organization, EIN 94-6078728
+                The <a href="http://www.ritecare-sf.org/" alt="Scottish Rite Childhood Language Centers website">San Francisco-Burlingame Scottish Rite Childhood Language Center</a> is part of the California Scottish Rite Foundation – a 501(c)3 Charitable Organization, EIN 94-6078728
               </p>
             </div>
           </article>
