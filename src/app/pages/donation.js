@@ -12,7 +12,7 @@ export class Donation extends Component {
             <p className="app_icon_wrapper">
               <img src={img2} className="sub_icon"/>
               <h4>Donate!</h4>
-              Make A Difference. Donate to the Scottish Rite Childhood Language Centers!
+              Make A Difference. Donate to the <a href="http://www.ritecare-sf.org/" alt="Scottish Rite Childhood Language Centers website">Scottish Rite Childhood Language Center!</a>
             </p>
             <div className="application_detail">
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
