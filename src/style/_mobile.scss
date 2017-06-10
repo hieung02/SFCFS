@@ -51,6 +51,9 @@
   .volunteer .application .application_detail {
     border: none;
     border-top: 1px solid $mainBG;
+    @include flex;
+    @include justify-content(center);
+
     margin: 0;
     
     p {
