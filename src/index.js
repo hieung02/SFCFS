@@ -8,7 +8,7 @@ import {Header} from './app/header';
 import {Home} from './app/pages/home';
 import {About} from './app/pages/about';
 import {Issue} from './app/pages/issue';
-import {Event} from './app/pages/events';
+import {EventTickets} from './app/pages/event_tickets';
 import {Volunteers} from './app/pages/volunteers';
 import {Thanks} from './app/pages/thanks';
 import {Designers} from './app/pages/designers';
@@ -35,7 +35,7 @@ ReactDOM.render(
       <Route path="/about" component={About}/>
       <Route path="/subscribe" component={Home}/>
       <Route path="/the-issue" component={Issue}/>
-      <Route path="/events" component={Event}/>
+      <Route path="/event_tickets" component={EventTickets}/>
       <Route path="/volunteers" component={Volunteers}/>
       <Route path="/thank-you" component={Thanks}/>
       <Route path="/donation" component={Donation}/>

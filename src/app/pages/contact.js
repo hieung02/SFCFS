@@ -1,39 +1,30 @@
 import React, { Component } from 'react';
 
+//npm installl proptypes
+
 export class Contact extends Component {
   constructor() {
     super();
 
     this.state = {
-      email: {
+      // email: {
         senderName:'',
         senderPhone:'',
         senderEmail:'',
         senderMessage:''
-      }
+      // }
     }
   }
 
-// onClick={()=>{this.setState({email:sender}); console.log(this.state.email)}}
+  sendMessage(){
+    console.log(this.state)
+    
+  }
+
+ 
+
 
   render() {
-
-    // let senderName, senderPhone, senderEmail, senderMessage;
-    var sender = {
-      name:'',
-      phone:'',
-      email:'',
-      message:''
-    };
-
-    function sendMessage(key, value) {
-      sender[key] = value;
-    }
-
-    function sendingMessage(){
-      this.setState({email:sender});
-    }
-
     return (
       <div className="volunteer contact scroll" style={{background: `url(${img1}) no-repeat bottom left`, backgroundSize:`cover`}}>
        <section className="article_wrapper">
@@ -42,34 +33,35 @@ export class Contact extends Component {
               {/*<img src={img2} className="sub_icon"/>*/}
               {contact_icon}
               <h4>Questions? Send us a message</h4>
+              {/*{console.log(this)}*/}
             </p>
             <div className="application_detail_container">
               <div className="application_detail">
                 <form name="contact_form" className="contactus_form" netlify>
                   <p>
                     <label>Name: 
-                      <input onChange={(e)=>{sendMessage("name", e.target.value)}} type="text" name="name" required/>
+                      <input value={this.state.senderName} onChange={(e)=>{this.setState({senderName : e.target.value})}} type="text" name="name" required/>
                     </label>
                   </p>
                   <p>
                     <label>Phone Number: 
-                      <input onChange={(e)=>{sendMessage("phone", e.target.value)}} type="tel" name="telephone"/>
+                      <input value={this.state.senderPhone} onChange={(e)=>{this.setState({senderPhone : e.target.value})}} type="tel" name="telephone"/>
                     </label>
                   </p>
                   <p>
                     <label>Email Address: 
-                      <input onChange={(e)=>{sendMessage("email", e.target.value)}} type="email" name="email" required/>
+                      <input value={this.state.senderEmail} onChange={(e)=>{this.setState({senderEmail : e.target.value})}} type="email" name="email" required/>
                     </label>
                   </p>
                   <p>
                     <label>Message: 
-                      <textarea onChange={(e)=>{sendMessage("message", e.target.value)}}name="message"/>
+                      <textarea value={this.state.senderMessage} onChange={(e)=>{this.setState({senderMessage : e.target.value})}}name="message"/>
                     </label>
                   </p>
-                  {/*<button>Send</button>*/}
+                  {/*<p><button onClick={this.sendMessage.bind(this)}>Send</button></p>*/}
                 </form>
               </div>
-              <p><button onClick={console.log(this)}>Send</button></p>
+              <p><button onClick={this.sendMessage.bind(this)}>Send</button></p>
             </div>
           </article>
         </section>

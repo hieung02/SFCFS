@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 const img1 = '../../img/model_bg.png';
 const img2 = '../../img/fashion.png';
 
-export class Event extends Component {
+export class EventTickets extends Component {
   render() {
     return (
       <div className="volunteer event" style={{background: `url(${img1}) no-repeat bottom left`}}>
