@@ -18,21 +18,22 @@ export class Nav extends Component {
             <a href="/"><li className="nav_items">Home</li></a>
             <a href="/about"><li className="nav_items">About Us</li></a>
             <a href="/the-issue"><li className="nav_items">The Issue</li></a>
-            <div name="events">
+            <a href="/event_tickets"><li className="sub_items bold">Fashion Show Tickets</li></a>
+            {/*<div name="events">*/}
               
               
-                <li className="nav_items">
+                {/*<li className="nav_items">*/}
                   {/*<label htmlFor="events_dropdown">*/}
-                    Events
-                    <i className="down arrow"></i>
+                    {/*Events*/}
+                    {/*<i className="down arrow"></i>*/}
                   {/*</label>*/}
                   
-                  <ul className="sub_nav">
+                  {/*<ul className="sub_nav">
                     <li className="sub_items">Previous Shows</li>
                     <a href="/event_tickets"><li className="sub_items">Fashion Show Tickets</li></a>
                   </ul>
-                </li>
-            </div>
+                </li>*/}
+            {/*</div>*/}
             <div name="volunteers">
               <li className="nav_items">Volunteers
                 <i className="down arrow"></i>
