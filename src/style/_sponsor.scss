@@ -1,0 +1,40 @@
+@mixin gallery_category {
+  margin: auto;
+  width: 100%;
+  letter-spacing: 8px;
+  @include flex;
+  @include justify-content (space-around);
+  align-items: center;
+}
+
+.sponsors {
+  .gallery_category {
+    @include gallery_category;
+    &:first-child {
+      position: relative;
+      top: -80px;
+    }
+  }
+  .sponsors_title {
+    width: 70%;
+    height: 80px;
+    font-size: 2.5rem;
+    background-color: $sectionBG;
+    @include flex;
+    @include justify-content (space-around);
+    align-items: center;
+    text-align: center;
+    margin: 45px 0 0;
+  }
+  .sponsors_gallery {
+    @include flex;
+    @include justify-content (space-around);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .sponsors_gallery img {
+    max-width: 30%;
+    // margin: 25px;
+
+  }
+}

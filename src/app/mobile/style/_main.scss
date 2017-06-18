@@ -5,3 +5,19 @@
   min-height: 100vh;
   min-width: 100vw;
 }
+
+.sponsors .sponsors_gallery {
+  .gallery_title {
+    margin: auto;
+    width: 70%;
+    height: 80px;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    background-color: $sectionBG;
+    text-align: center;
+
+  }
+  img {
+    width: 30%;
+  }
+}

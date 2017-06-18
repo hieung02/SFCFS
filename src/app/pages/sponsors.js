@@ -1,0 +1,62 @@
+import React, {Component} from 'react';
+
+const img1 = '../../sponsors/img1.png';
+const img2 = '../../sponsors/img2.png';
+const img3 = '../../sponsors/img3.jpg';
+const img4 = '../../sponsors/img4.png';
+const img5 = '../../sponsors/img5.png';
+const img6 = '../../sponsors/img6.png';
+const img7 = '../../sponsors/img7.png';
+const bg = '../../img/issue_bg.png';
+// const bg = '../../sponsors/bg.jpg';
+
+{/*<img src={img1} alt=""/>
+  <img src={img2} alt=""/>
+  <img src={img3} alt=""/>
+  <img src={img4} alt=""/>
+  <img src={img5} alt=""/>
+  <img src={img6} alt=""/>
+  <img src={img7} alt=""/>*/}
+
+
+export class Sponsors extends Component {
+  render() {
+    return (
+      <div className="about sponsors">
+        <div style={{background: `url(${bg}) no-repeat center bottom`, backgroundSize: `cover`}} className="headline"/>
+        <section className="sponsors_gallery">
+          <article className="gallery_category">
+            <div className="sponsors_title">
+              Corporate Sponsors
+            </div>
+          </article>
+          <img src={img1} alt=""/>
+          <img src={img2} alt=""/>
+          <img src={img3} alt=""/>
+        {/*</section>*/}
+        {/*<section className="sponsors_gallery">*/}
+          <img src={img4} alt=""/>
+          <img src={img5} alt=""/>
+          <img src={img6} alt=""/>
+        {/*</section>*/}
+        {/*<section className="sponsors_gallery">*/}
+          <article className="gallery_category">
+            <div className="sponsors_title">
+              Featured Designers
+            </div>
+          </article>
+          <img src={img7} alt=""/>
+        </section>
+      </div>
+    );
+  }
+}
+
+
+{/*<article className="sub_main" style={{background: `url(${img1}) no-repeat center center`, backgroundSize:'cover'}}>
+</article>
+<article className="sub_main" style={{background: `url(${img2}) no-repeat center center`, backgroundSize:'cover'}}/>
+<article className="sub_main" style={{background: `url(${img4}) no-repeat center rgba(198, 234, 233, 1)`}}>
+</article>
+<article className="sub_main" style={{background: `url(${img3}) no-repeat center center`, backgroundSize:'cover'}}>
+</article>*/}

@@ -8,6 +8,7 @@ import {Header} from './app/header';
 import {Home} from './app/pages/home';
 import {About} from './app/pages/about';
 import {Issue} from './app/pages/issue';
+import {Sponsors} from './app/pages/sponsors';
 import {EventTickets} from './app/pages/event_tickets';
 import {Volunteers} from './app/pages/volunteers';
 import {Thanks} from './app/pages/thanks';
@@ -28,6 +29,7 @@ ReactDOM.render(
     <div className="container">
       <Header/>
       <Route exact path="/" component={Home}/>
+      <Route path="/sponsors" component={Sponsors}/>
       <Route path="/designer_volunteers" component={Designers}/>
       <Route path="/designer_form" component={DesignerForm}/>
       <Route path="/model_volunteers" component={Models}/>

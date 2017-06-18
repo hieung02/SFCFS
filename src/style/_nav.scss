@@ -32,6 +32,12 @@
 
 
 .header .nav ul .nav_items {
+  // &:after {
+  //   content: ' |';
+  // }
+  // &:last-child {
+  //   content: '';
+  // }
   .sub_nav {
     position: absolute;
     .sub_items{

@@ -17,7 +17,7 @@ export class Nav extends Component {
           <ul>
             <a href="/"><li className="nav_items">Home</li></a>
             <a href="/about"><li className="nav_items">About Us</li></a>
-            <a href="/the-issue"><li className="nav_items">The Issue</li></a>
+            {/*<a href="/the-issue"><li className="nav_items">The Issue</li></a>*/}
             <a href="/event_tickets"><li className="sub_items bold">Fashion Show Tickets</li></a>
             {/*<div name="events">*/}
               
@@ -45,6 +45,7 @@ export class Nav extends Component {
               </li>
             </div>
             <a href="/donation"><li className="nav_items">Donation</li></a>
+            <a href="/sponsors"><li className="nav_items">Our Generous Sponsors</li></a>
             <a href="/contactus"><li className="nav_items">Contact Us</li></a>
           </ul>
         </nav>
