@@ -151,10 +151,14 @@
     overflow: scroll;
   }
 
-  // .donation .app_icon_wrapper {
-  //   display: none;
-  // }
-
+  .sponsors {
+    .sponsors_title {
+      font-size: 2rem;
+    }
+    .sponsors_gallery img {
+      max-width: 80%;
+    }
+  }
   .donation .application .application_detail {
     // border: none;
     // font-style: italic;

@@ -2,12 +2,19 @@ import React, {Component} from 'react';
 
 const img1 = '../../sponsors/img1.png';
 const img2 = '../../sponsors/img2.png';
-const img3 = '../../sponsors/img3.jpg';
+const img3 = '../../sponsors/img3.png';
 const img4 = '../../sponsors/img4.png';
 const img5 = '../../sponsors/img5.png';
 const img6 = '../../sponsors/img6.png';
 const img7 = '../../sponsors/img7.png';
+const img8 = '../../sponsors/img8.png';
 const bg = '../../img/issue_bg.png';
+
+const desg1 = '../../sponsors/designers/img1.jpg';
+const desg2 = '../../sponsors/designers/img2.jpg';
+const desg3 = '../../sponsors/designers/img3.png';
+const desg4 = '../../sponsors/designers/img4.jpg';
+const desg5 = '../../sponsors/designers/img5.jpg';
 // const bg = '../../sponsors/bg.jpg';
 
 {/*<img src={img1} alt=""/>
@@ -45,7 +52,17 @@ export class Sponsors extends Component {
               Featured Designers
             </div>
           </article>
-          <img src={img7} alt=""/>
+          <img src={desg1} alt=""/>
+          <img src={desg2} alt=""/>
+          <img src={desg3} alt=""/>
+          <img src={desg4} alt=""/>
+          <img src={desg5} alt=""/>
+          <article className="gallery_category">
+            <div className="sponsors_title">
+              Educational Sponsor
+            </div>
+          </article>
+          <img src={img8} alt=""/>
         </section>
       </div>
     );
