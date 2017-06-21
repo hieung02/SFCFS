@@ -17,7 +17,7 @@ export class Home extends Component {
           <article className="main">
             <h1>Food, Drinks, and Fashion! Come to our Fashion Show Fundraiser!!</h1>
             <p>We are SF Charity Fashion Show, a fundraiser for the San Francisco-Burlingame Scottish Rite Childhood Language Center.</p>
-            <a href="/event_tickets"><button>Purchase Your Tickets Now!!!</button></a>
+            <a href="/event_tickets"><button>Purchase Your Tickets</button></a>
           </article>
           <article className="main_sub">
             <article className="sub_main" style={{background: `url(${img3}) no-repeat center center`, backgroundSize:'cover'}}>
