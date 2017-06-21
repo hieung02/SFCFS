@@ -21,16 +21,6 @@
     margin: 0px 5% 20px 5%;
   }
 
-  // .header .nav ul a[href="/about"]{
-  //   .nav_items .sub_nav li {
-  //     height: 0;
-  //   }
-  // }
-
-  // .header .nav ul a[href="/about"]:hover{
-  //   @include sub_menu_mobile;
-  // }
-
   .header .nav ul div[name="events"]:hover{
     @include sub_menu_mobile; 
   }
@@ -43,8 +33,9 @@
     @include flex-direction(column);
 
     p {
-      padding-bottom: 15px;
+      // padding-bottom: 15px;
       text-align: center;
+      width: 81%;
     }
   }
 
@@ -52,10 +43,6 @@
     border: none;
     border-top: 1px solid $mainBG;
     margin-right: 10px;
-    // @include flex;
-    // @include justify-content(center);
-
-    // margin: 0;
     
     p {
       padding-top: 15px;
