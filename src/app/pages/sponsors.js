@@ -8,6 +8,7 @@ const img5 = '../../sponsors/img5.png';
 const img6 = '../../sponsors/img6.png';
 const img7 = '../../sponsors/img7.jpg';
 const img8 = '../../sponsors/img8.png';
+const img9 = '../../sponsors/img9.png';
 const bg = '../../sponsors/sponsors_bg.png';
 
 const desg1 = '../../sponsors/designers/img1.jpg';
@@ -46,6 +47,7 @@ export class Sponsors extends Component {
           <img src={img5} alt=""/>
           <img src={img6} alt=""/>
           <img src={img7} alt=""/>
+          <img src={img9} alt=""/>
         {/*</section>*/}
         {/*<section className="sponsors_gallery">*/}
           <article className="gallery_category">
