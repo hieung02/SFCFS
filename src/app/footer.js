@@ -12,6 +12,7 @@ const email = (<i className="fa fa-envelope-o" aria-hidden="true"/>);
 
 // const sfcfs = "../img/Logo_transp.png";
 
+
 export class Footer extends Component {
   render() {
     return (
